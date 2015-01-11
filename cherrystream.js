@@ -44,7 +44,8 @@
      */
     decode_play_info : function(value) {
       var pos;
-      var key = atob("cGxlYXNlZG9udGRvd25sb2Fkb3VybXVzaWN0aGVhcnRpc3Rzd29udGdldHBhaWQ="),
+      var key = atob("cGxlYXNlZG9udGRvd25sb2Fkb3VybXVzaWN0aGVhcnRpc3Rzd29ud"+
+                     "GdldHBhaWQ="),
           key_len = key.length,
           nvalue = [],
           dvalue = atob(value),
